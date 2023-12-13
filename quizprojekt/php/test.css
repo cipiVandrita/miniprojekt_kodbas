@@ -1,0 +1,18 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(126, 0, 63);
+    text-align: center;   
+
+}
+
+.ok {
+    background-color: lightgreen;
+    color: darkgreen;
+}
+.error {
+    background-color: pink;
+    color: darkred;
+}
+body{
+    background-color:darkgrey;
+}

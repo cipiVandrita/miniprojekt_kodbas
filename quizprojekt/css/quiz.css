@@ -1,0 +1,47 @@
+    .quiz-container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 2%;
+      border: 1px solid #ccc;
+    }
+    
+    .question {
+      font-weight: bold;
+      margin-bottom: 1%;
+    }
+    
+    .image-container img {
+      position: relative;
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 1%;
+    }
+ 
+    .correct {
+      background-color: green;
+      color: white;
+    }
+    
+    .incorrect {
+      background-color: red;
+      color: white;
+    }
+
+     .option-btn {
+      padding: 1.5%;
+      width: 100%;
+    }
+    .knappar {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+   
+    .score {
+      font-weight: bold;
+      margin-top: 2%;
+    }
+
+   
+    
+    
