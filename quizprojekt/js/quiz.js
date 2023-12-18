@@ -88,8 +88,6 @@ function checkOptions(event) {
       ratt: userOption,
       id: quizData[currentQuestion].id 
     };
-    console.log('userOption:', userOption);
-console.log('question ID:', quizData[currentQuestion].id);
     
     fetch('https://www.datanom.ax/~47493/quizprojekt/php/rattaFraga.php', {
       method: 'POST',
