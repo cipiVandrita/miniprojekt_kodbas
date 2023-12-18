@@ -6,7 +6,7 @@ require_once 'funktioner.php';
 $db = connectDB();
 
 // Hämta alla poster från tabellen
-$sql = "SELECT DISTINCT question.id, bild, fraga, val, question.ratt
+$sql = "SELECT DISTINCT question.id, bild, fraga, val
 FROM question
 JOIN options ON options.id = question.id";  
 
@@ -22,5 +22,3 @@ foreach ($rows as $post) {
 header("Content-Type: application/json; charset=UTF-8");
 
 skickaJSON($retur);
-
-
